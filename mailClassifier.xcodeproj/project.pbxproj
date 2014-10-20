@@ -22,6 +22,9 @@
 		5A44A1EC19F0E71A006A9E1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A44A1CB19F0E71A006A9E1C /* UIKit.framework */; };
 		5A44A1F419F0E71A006A9E1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A44A1F219F0E71A006A9E1C /* InfoPlist.strings */; };
 		5A44A1F619F0E71A006A9E1C /* mailClassifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A44A1F519F0E71A006A9E1C /* mailClassifierTests.m */; };
+		C2E4A44119F504B70048AD35 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A44019F504B70048AD35 /* CFNetwork.framework */; };
+		C2E4A44319F504BF0048AD35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A44219F504BF0048AD35 /* Security.framework */; };
+		C2E4A45E19F50BDA0048AD35 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A45219F507AC0048AD35 /* libMailCore-ios.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,55 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5A44A1C319F0E71A006A9E1C;
 			remoteInfo = mailClassifier;
+		};
+		C2E4A44F19F507AC0048AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		C2E4A45119F507AC0048AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		C2E4A45319F507AC0048AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		C2E4A45519F507AC0048AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		C2E4A45719F507AC0048AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		C2E4A45919F507AC0048AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27780C3A19CF9CD100C77E44;
+			remoteInfo = "mailcore ios";
+		};
+		C2E4A45C19F508000048AD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +107,9 @@
 		5A44A1F119F0E71A006A9E1C /* mailClassifierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mailClassifierTests-Info.plist"; sourceTree = "<group>"; };
 		5A44A1F319F0E71A006A9E1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A44A1F519F0E71A006A9E1C /* mailClassifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mailClassifierTests.m; sourceTree = "<group>"; };
+		C2E4A44019F504B70048AD35 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C2E4A44219F504BF0048AD35 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "mailClassifier/lib/mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +117,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E4A45E19F50BDA0048AD35 /* libMailCore-ios.a in Frameworks */,
+				C2E4A44319F504BF0048AD35 /* Security.framework in Frameworks */,
+				C2E4A44119F504B70048AD35 /* CFNetwork.framework in Frameworks */,
 				5A44A1CA19F0E71A006A9E1C /* CoreGraphics.framework in Frameworks */,
 				5A44A1CC19F0E71A006A9E1C /* UIKit.framework in Frameworks */,
 				5A44A1C819F0E71A006A9E1C /* Foundation.framework in Frameworks */,
@@ -84,6 +142,7 @@
 		5A44A1BB19F0E71A006A9E1C = {
 			isa = PBXGroup;
 			children = (
+				C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */,
 				5A44A1CD19F0E71A006A9E1C /* mailClassifier */,
 				5A44A1EF19F0E71A006A9E1C /* mailClassifierTests */,
 				5A44A1C619F0E71A006A9E1C /* Frameworks */,
@@ -103,6 +162,8 @@
 		5A44A1C619F0E71A006A9E1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2E4A44219F504BF0048AD35 /* Security.framework */,
+				C2E4A44019F504B70048AD35 /* CFNetwork.framework */,
 				5A44A1C719F0E71A006A9E1C /* Foundation.framework */,
 				5A44A1C919F0E71A006A9E1C /* CoreGraphics.framework */,
 				5A44A1CB19F0E71A006A9E1C /* UIKit.framework */,
@@ -114,6 +175,7 @@
 		5A44A1CD19F0E71A006A9E1C /* mailClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				C2E49D0B19F503A60048AD35 /* lib */,
 				5A44A1D619F0E71A006A9E1C /* AppDelegate.h */,
 				5A44A1D719F0E71A006A9E1C /* AppDelegate.m */,
 				5A44A1D919F0E71A006A9E1C /* Main_iPhone.storyboard */,
@@ -155,6 +217,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2E49D0B19F503A60048AD35 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		C2E4A44719F507AB0048AD35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E4A45019F507AC0048AD35 /* libMailCore.a */,
+				C2E4A45219F507AC0048AD35 /* libMailCore-ios.a */,
+				C2E4A45419F507AC0048AD35 /* tests */,
+				C2E4A45619F507AC0048AD35 /* test-ios.app */,
+				C2E4A45819F507AC0048AD35 /* MailCore.framework */,
+				C2E4A45A19F507AC0048AD35 /* MailCore-ios.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,6 +251,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C2E4A45D19F508000048AD35 /* PBXTargetDependency */,
 			);
 			name = mailClassifier;
 			productName = mailClassifier;
@@ -218,6 +301,12 @@
 			mainGroup = 5A44A1BB19F0E71A006A9E1C;
 			productRefGroup = 5A44A1C519F0E71A006A9E1C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C2E4A44719F507AB0048AD35 /* Products */;
+					ProjectRef = C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5A44A1C319F0E71A006A9E1C /* mailClassifier */,
@@ -225,6 +314,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C2E4A45019F507AC0048AD35 /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = C2E4A44F19F507AC0048AD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E4A45219F507AC0048AD35 /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = C2E4A45119F507AC0048AD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E4A45419F507AC0048AD35 /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = C2E4A45319F507AC0048AD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E4A45619F507AC0048AD35 /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = C2E4A45519F507AC0048AD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E4A45819F507AC0048AD35 /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = C2E4A45719F507AC0048AD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E4A45A19F507AC0048AD35 /* MailCore-ios.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "MailCore-ios.framework";
+			remoteRef = C2E4A45919F507AC0048AD35 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5A44A1C219F0E71A006A9E1C /* Resources */ = {
@@ -274,6 +408,11 @@
 			isa = PBXTargetDependency;
 			target = 5A44A1C319F0E71A006A9E1C /* mailClassifier */;
 			targetProxy = 5A44A1ED19F0E71A006A9E1C /* PBXContainerItemProxy */;
+		};
+		C2E4A45D19F508000048AD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "static mailcore2 ios";
+			targetProxy = C2E4A45C19F508000048AD35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,6 +532,22 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mailClassifier/mailClassifier-Prefix.pch";
 				INFOPLIST_FILE = "mailClassifier/mailClassifier-Info.plist";
+				OTHER_LDFLAGS = (
+					"-licucore",
+					"-lc++",
+					"-stdlib=libc++",
+					"-ObjC",
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +561,22 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mailClassifier/mailClassifier-Prefix.pch";
 				INFOPLIST_FILE = "mailClassifier/mailClassifier-Info.plist";
+				OTHER_LDFLAGS = (
+					"-licucore",
+					"-lc++",
+					"-stdlib=libc++",
+					"-ObjC",
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +641,7 @@
 				5A44A1FB19F0E71A006A9E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A44A1FC19F0E71A006A9E1C /* Build configuration list for PBXNativeTarget "mailClassifierTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +650,7 @@
 				5A44A1FE19F0E71A006A9E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

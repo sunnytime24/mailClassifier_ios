@@ -8,16 +8,16 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
-//youngsun haeyong sea
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad
 {
-    NSLog(@"Test test test");
-    [super viewDidLoad];
+        [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
