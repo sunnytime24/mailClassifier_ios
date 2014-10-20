@@ -16,8 +16,8 @@ int main(int argc, char * argv[])
     MCOIMAPSession *session = [[MCOIMAPSession alloc] init];
     [session setHostname:@"imap.gmail.com"];
     [session setPort:993];
-    [session setUsername:@"shysin8@gmail.com"];
-    [session setPassword:@"tlsdyd123"];
+    [session setUsername:@"mobideku@gmail.com"];
+    [session setPassword:@"mobide135"];
     [session setConnectionType:MCOConnectionTypeTLS];
     
     MCOIMAPMessagesRequestKind requestKind = MCOIMAPMessagesRequestKindHeaders;
