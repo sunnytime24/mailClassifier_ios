@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A9436835-B537-4B78-BD67-95E31CE27EE7</string>
+	<string>E1473F03-8770-4765-80DF-9AC1B2E7C400</string>
 	<key>IDESourceControlProjectName</key>
 	<string>mailClassifier</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E5B9E836-8A08-4506-BCF5-EC4082918949</key>
-		<string>ssh://github.com/sunnytime24/mailClassifier_ios.git</string>
+		<key>ADF1AC26-0153-47E0-8AD1-27513C9EFB28</key>
+		<string>https://github.com/sunnytime24/mailClassifier_ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>mailClassifier.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E5B9E836-8A08-4506-BCF5-EC4082918949</key>
+		<key>ADF1AC26-0153-47E0-8AD1-27513C9EFB28</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/sunnytime24/mailClassifier_ios.git</string>
+	<string>https://github.com/sunnytime24/mailClassifier_ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E5B9E836-8A08-4506-BCF5-EC4082918949</string>
+	<string>ADF1AC26-0153-47E0-8AD1-27513C9EFB28</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E5B9E836-8A08-4506-BCF5-EC4082918949</string>
+			<string>ADF1AC26-0153-47E0-8AD1-27513C9EFB28</string>
 			<key>IDESourceControlWCCName</key>
 			<string>mailClassifier</string>
 		</dict>
