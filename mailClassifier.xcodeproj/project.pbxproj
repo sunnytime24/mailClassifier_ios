@@ -14,7 +14,6 @@
 		5A44A1D419F0E71A006A9E1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A44A1D319F0E71A006A9E1C /* main.m */; };
 		5A44A1D819F0E71A006A9E1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A44A1D719F0E71A006A9E1C /* AppDelegate.m */; };
 		5A44A1DB19F0E71A006A9E1C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A44A1D919F0E71A006A9E1C /* Main_iPhone.storyboard */; };
-		5A44A1DE19F0E71A006A9E1C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A44A1DC19F0E71A006A9E1C /* Main_iPad.storyboard */; };
 		5A44A1E119F0E71A006A9E1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A44A1E019F0E71A006A9E1C /* ViewController.m */; };
 		5A44A1E319F0E71A006A9E1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A44A1E219F0E71A006A9E1C /* Images.xcassets */; };
 		5A44A1EA19F0E71A006A9E1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A44A1E919F0E71A006A9E1C /* XCTest.framework */; };
@@ -36,6 +35,8 @@
 		C2E4A47F19F5201B0048AD35 /* sigmaIndex.db in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A47919F5201B0048AD35 /* sigmaIndex.db */; };
 		C2E4A48019F5201B0048AD35 /* sigmaSimilarity030.db in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A47A19F5201B0048AD35 /* sigmaSimilarity030.db */; };
 		C2E4A48219F520380048AD35 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A48119F520380048AD35 /* libsqlite3.0.dylib */; };
+		C2E4A48619F601400048AD35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A48419F601400048AD35 /* Main.storyboard */; };
+		C2E4A48919F6019B0048AD35 /* EmailDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E4A48819F6019B0048AD35 /* EmailDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +110,6 @@
 		5A44A1D619F0E71A006A9E1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A44A1D719F0E71A006A9E1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5A44A1DA19F0E71A006A9E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5A44A1DD19F0E71A006A9E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5A44A1DF19F0E71A006A9E1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5A44A1E019F0E71A006A9E1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5A44A1E219F0E71A006A9E1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -137,6 +137,9 @@
 		C2E4A47919F5201B0048AD35 /* sigmaIndex.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sigmaIndex.db; sourceTree = "<group>"; };
 		C2E4A47A19F5201B0048AD35 /* sigmaSimilarity030.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sigmaSimilarity030.db; sourceTree = "<group>"; };
 		C2E4A48119F520380048AD35 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C2E4A48519F601400048AD35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E4A48719F6019B0048AD35 /* EmailDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailDetailViewController.h; sourceTree = "<group>"; };
+		C2E4A48819F6019B0048AD35 /* EmailDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +213,9 @@
 				5A44A1D619F0E71A006A9E1C /* AppDelegate.h */,
 				5A44A1D719F0E71A006A9E1C /* AppDelegate.m */,
 				5A44A1D919F0E71A006A9E1C /* Main_iPhone.storyboard */,
-				5A44A1DC19F0E71A006A9E1C /* Main_iPad.storyboard */,
+				C2E4A48419F601400048AD35 /* Main.storyboard */,
+				C2E4A48719F6019B0048AD35 /* EmailDetailViewController.h */,
+				C2E4A48819F6019B0048AD35 /* EmailDetailViewController.m */,
 				5A44A1DF19F0E71A006A9E1C /* ViewController.h */,
 				5A44A1E019F0E71A006A9E1C /* ViewController.m */,
 				5A44A1E219F0E71A006A9E1C /* Images.xcassets */,
@@ -435,7 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E4A48019F5201B0048AD35 /* sigmaSimilarity030.db in Resources */,
-				5A44A1DE19F0E71A006A9E1C /* Main_iPad.storyboard in Resources */,
+				C2E4A48619F601400048AD35 /* Main.storyboard in Resources */,
 				C2E4A47E19F5201B0048AD35 /* sigmaBase030.db in Resources */,
 				C2E4A47F19F5201B0048AD35 /* sigmaIndex.db in Resources */,
 				5A44A1E319F0E71A006A9E1C /* Images.xcassets in Resources */,
@@ -464,6 +469,7 @@
 				C2E4A46819F5200C0048AD35 /* OSClassifier.m in Sources */,
 				C2E4A47119F520120048AD35 /* OSSqlite.m in Sources */,
 				5A44A1E119F0E71A006A9E1C /* ViewController.m in Sources */,
+				C2E4A48919F6019B0048AD35 /* EmailDetailViewController.m in Sources */,
 				5A44A1D819F0E71A006A9E1C /* AppDelegate.m in Sources */,
 				C2E4A47219F520120048AD35 /* OSVector.m in Sources */,
 				C2E4A47B19F5201B0048AD35 /* CTokenizer.m in Sources */,
@@ -512,20 +518,20 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		5A44A1DC19F0E71A006A9E1C /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A44A1DD19F0E71A006A9E1C /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		5A44A1F219F0E71A006A9E1C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5A44A1F319F0E71A006A9E1C /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2E4A48419F601400048AD35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E4A48519F601400048AD35 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
