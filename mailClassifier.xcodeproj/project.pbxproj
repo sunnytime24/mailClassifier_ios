@@ -25,6 +25,17 @@
 		C2E4A44119F504B70048AD35 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A44019F504B70048AD35 /* CFNetwork.framework */; };
 		C2E4A44319F504BF0048AD35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A44219F504BF0048AD35 /* Security.framework */; };
 		C2E4A45E19F50BDA0048AD35 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A45219F507AC0048AD35 /* libMailCore-ios.a */; };
+		C2E4A46819F5200C0048AD35 /* OSClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E4A46719F5200C0048AD35 /* OSClassifier.m */; };
+		C2E4A47019F520120048AD35 /* OSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E4A46B19F520120048AD35 /* OSDocument.m */; };
+		C2E4A47119F520120048AD35 /* OSSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E4A46D19F520120048AD35 /* OSSqlite.m */; };
+		C2E4A47219F520120048AD35 /* OSVector.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E4A46F19F520120048AD35 /* OSVector.m */; };
+		C2E4A47B19F5201B0048AD35 /* CTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E4A47419F5201B0048AD35 /* CTokenizer.m */; };
+		C2E4A47C19F5201B0048AD35 /* android.db in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A47619F5201B0048AD35 /* android.db */; };
+		C2E4A47D19F5201B0048AD35 /* itunes.db in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A47719F5201B0048AD35 /* itunes.db */; };
+		C2E4A47E19F5201B0048AD35 /* sigmaBase030.db in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A47819F5201B0048AD35 /* sigmaBase030.db */; };
+		C2E4A47F19F5201B0048AD35 /* sigmaIndex.db in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A47919F5201B0048AD35 /* sigmaIndex.db */; };
+		C2E4A48019F5201B0048AD35 /* sigmaSimilarity030.db in Resources */ = {isa = PBXBuildFile; fileRef = C2E4A47A19F5201B0048AD35 /* sigmaSimilarity030.db */; };
+		C2E4A48219F520380048AD35 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E4A48119F520380048AD35 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +121,22 @@
 		C2E4A44019F504B70048AD35 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		C2E4A44219F504BF0048AD35 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C2E4A44619F507AB0048AD35 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "mailClassifier/lib/mailcore2/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
+		C2E4A46619F5200C0048AD35 /* OSClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSClassifier.h; sourceTree = "<group>"; };
+		C2E4A46719F5200C0048AD35 /* OSClassifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSClassifier.m; sourceTree = "<group>"; };
+		C2E4A46A19F520120048AD35 /* OSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSDocument.h; sourceTree = "<group>"; };
+		C2E4A46B19F520120048AD35 /* OSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSDocument.m; sourceTree = "<group>"; };
+		C2E4A46C19F520120048AD35 /* OSSqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSqlite.h; sourceTree = "<group>"; };
+		C2E4A46D19F520120048AD35 /* OSSqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSqlite.m; sourceTree = "<group>"; };
+		C2E4A46E19F520120048AD35 /* OSVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVector.h; sourceTree = "<group>"; };
+		C2E4A46F19F520120048AD35 /* OSVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVector.m; sourceTree = "<group>"; };
+		C2E4A47319F5201B0048AD35 /* CTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTokenizer.h; path = lib/CTokenizer.h; sourceTree = "<group>"; };
+		C2E4A47419F5201B0048AD35 /* CTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTokenizer.m; path = lib/CTokenizer.m; sourceTree = "<group>"; };
+		C2E4A47619F5201B0048AD35 /* android.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = android.db; sourceTree = "<group>"; };
+		C2E4A47719F5201B0048AD35 /* itunes.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = itunes.db; sourceTree = "<group>"; };
+		C2E4A47819F5201B0048AD35 /* sigmaBase030.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sigmaBase030.db; sourceTree = "<group>"; };
+		C2E4A47919F5201B0048AD35 /* sigmaIndex.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sigmaIndex.db; sourceTree = "<group>"; };
+		C2E4A47A19F5201B0048AD35 /* sigmaSimilarity030.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = sigmaSimilarity030.db; sourceTree = "<group>"; };
+		C2E4A48119F520380048AD35 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E4A48219F520380048AD35 /* libsqlite3.0.dylib in Frameworks */,
 				C2E4A45E19F50BDA0048AD35 /* libMailCore-ios.a in Frameworks */,
 				C2E4A44319F504BF0048AD35 /* Security.framework in Frameworks */,
 				C2E4A44119F504B70048AD35 /* CFNetwork.framework in Frameworks */,
@@ -162,6 +190,7 @@
 		5A44A1C619F0E71A006A9E1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2E4A48119F520380048AD35 /* libsqlite3.0.dylib */,
 				C2E4A44219F504BF0048AD35 /* Security.framework */,
 				C2E4A44019F504B70048AD35 /* CFNetwork.framework */,
 				5A44A1C719F0E71A006A9E1C /* Foundation.framework */,
@@ -175,6 +204,8 @@
 		5A44A1CD19F0E71A006A9E1C /* mailClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				C2E4A46919F520120048AD35 /* Model */,
+				C2E4A46519F5200C0048AD35 /* Controller */,
 				C2E49D0B19F503A60048AD35 /* lib */,
 				5A44A1D619F0E71A006A9E1C /* AppDelegate.h */,
 				5A44A1D719F0E71A006A9E1C /* AppDelegate.m */,
@@ -220,6 +251,9 @@
 		C2E49D0B19F503A60048AD35 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				C2E4A47319F5201B0048AD35 /* CTokenizer.h */,
+				C2E4A47419F5201B0048AD35 /* CTokenizer.m */,
+				C2E4A47519F5201B0048AD35 /* data */,
 			);
 			name = lib;
 			sourceTree = "<group>";
@@ -235,6 +269,41 @@
 				C2E4A45A19F507AC0048AD35 /* MailCore-ios.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E4A46519F5200C0048AD35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2E4A46619F5200C0048AD35 /* OSClassifier.h */,
+				C2E4A46719F5200C0048AD35 /* OSClassifier.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2E4A46919F520120048AD35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2E4A46A19F520120048AD35 /* OSDocument.h */,
+				C2E4A46B19F520120048AD35 /* OSDocument.m */,
+				C2E4A46C19F520120048AD35 /* OSSqlite.h */,
+				C2E4A46D19F520120048AD35 /* OSSqlite.m */,
+				C2E4A46E19F520120048AD35 /* OSVector.h */,
+				C2E4A46F19F520120048AD35 /* OSVector.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2E4A47519F5201B0048AD35 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C2E4A47619F5201B0048AD35 /* android.db */,
+				C2E4A47719F5201B0048AD35 /* itunes.db */,
+				C2E4A47819F5201B0048AD35 /* sigmaBase030.db */,
+				C2E4A47919F5201B0048AD35 /* sigmaIndex.db */,
+				C2E4A47A19F5201B0048AD35 /* sigmaSimilarity030.db */,
+			);
+			name = data;
+			path = lib/data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,10 +434,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E4A48019F5201B0048AD35 /* sigmaSimilarity030.db in Resources */,
 				5A44A1DE19F0E71A006A9E1C /* Main_iPad.storyboard in Resources */,
+				C2E4A47E19F5201B0048AD35 /* sigmaBase030.db in Resources */,
+				C2E4A47F19F5201B0048AD35 /* sigmaIndex.db in Resources */,
 				5A44A1E319F0E71A006A9E1C /* Images.xcassets in Resources */,
+				C2E4A47C19F5201B0048AD35 /* android.db in Resources */,
 				5A44A1DB19F0E71A006A9E1C /* Main_iPhone.storyboard in Resources */,
 				5A44A1D219F0E71A006A9E1C /* InfoPlist.strings in Resources */,
+				C2E4A47D19F5201B0048AD35 /* itunes.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,9 +461,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E4A46819F5200C0048AD35 /* OSClassifier.m in Sources */,
+				C2E4A47119F520120048AD35 /* OSSqlite.m in Sources */,
 				5A44A1E119F0E71A006A9E1C /* ViewController.m in Sources */,
 				5A44A1D819F0E71A006A9E1C /* AppDelegate.m in Sources */,
+				C2E4A47219F520120048AD35 /* OSVector.m in Sources */,
+				C2E4A47B19F5201B0048AD35 /* CTokenizer.m in Sources */,
 				5A44A1D419F0E71A006A9E1C /* main.m in Sources */,
+				C2E4A47019F520120048AD35 /* OSDocument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

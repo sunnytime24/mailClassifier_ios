@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#include <MailCore/MailCore.h>
 @interface ViewController : UIViewController
 
 @end
